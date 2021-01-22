@@ -3,21 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1322515725B5C46200F6F59D /* AddCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1322515625B5C46200F6F59D /* AddCityViewController.swift */; };
 		1351279425B2D26700E4DD0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1351279325B2D26700E4DD0E /* AppDelegate.swift */; };
-		1351279625B2D26700E4DD0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1351279525B2D26700E4DD0E /* SceneDelegate.swift */; };
 		1351279825B2D26700E4DD0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1351279725B2D26700E4DD0E /* ViewController.swift */; };
 		1351279B25B2D26700E4DD0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1351279925B2D26700E4DD0E /* Main.storyboard */; };
 		1351279D25B2D26700E4DD0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1351279C25B2D26700E4DD0E /* Assets.xcassets */; };
 		135127A025B2D26700E4DD0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1351279E25B2D26700E4DD0E /* LaunchScreen.storyboard */; };
 		135127AB25B2D26800E4DD0E /* WindyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135127AA25B2D26800E4DD0E /* WindyTests.swift */; };
 		135127B625B2D26800E4DD0E /* WindyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135127B525B2D26800E4DD0E /* WindyUITests.swift */; };
-		B40CD0810A22CDC2663335BB /* Pods_Windy_WindyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723E7CE6FCCC513E61179661 /* Pods_Windy_WindyUITests.framework */; };
-		E5D9BD84BC2C116376751C43 /* Pods_Windy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCC62EFC0831B90BD02FDEE /* Pods_Windy.framework */; };
-		EC18777B4B683E135765A31E /* Pods_WindyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C4907A39591BBF49401C4E /* Pods_WindyTests.framework */; };
+		2A5478C69DB3927DF2F58B3B /* Pods_WindyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E4AF6E789576AB6D38FB51 /* Pods_WindyTests.framework */; };
+		7B02DAFBA2DFC24992E7DF0B /* Pods_Windy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 517454A89F7E342EA40026B3 /* Pods_Windy.framework */; };
+		D93BCC0FBAF2C5D2436873CF /* Pods_Windy_WindyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D86D143205CD715A9A60C9AA /* Pods_Windy_WindyUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EA3B6E9EF92340C11234A7E /* Pods-WindyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindyTests.release.xcconfig"; path = "Target Support Files/Pods-WindyTests/Pods-WindyTests.release.xcconfig"; sourceTree = "<group>"; };
+		1322515625B5C46200F6F59D /* AddCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCityViewController.swift; sourceTree = "<group>"; };
 		1351279025B2D26700E4DD0E /* Windy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Windy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1351279325B2D26700E4DD0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1351279525B2D26700E4DD0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1351279725B2D26700E4DD0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1351279A25B2D26700E4DD0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1351279C25B2D26700E4DD0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,14 +52,15 @@
 		135127B125B2D26800E4DD0E /* WindyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		135127B525B2D26800E4DD0E /* WindyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindyUITests.swift; sourceTree = "<group>"; };
 		135127B725B2D26800E4DD0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AE377240AF5639A61A9A086 /* Pods-Windy-WindyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windy-WindyUITests.release.xcconfig"; path = "Target Support Files/Pods-Windy-WindyUITests/Pods-Windy-WindyUITests.release.xcconfig"; sourceTree = "<group>"; };
-		1CCB387BBC507977C37AB344 /* Pods-Windy-WindyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windy-WindyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Windy-WindyUITests/Pods-Windy-WindyUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		46A2155E9965E240626BDB7B /* Pods-Windy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windy.release.xcconfig"; path = "Target Support Files/Pods-Windy/Pods-Windy.release.xcconfig"; sourceTree = "<group>"; };
-		5FCC62EFC0831B90BD02FDEE /* Pods_Windy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Windy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		723E7CE6FCCC513E61179661 /* Pods_Windy_WindyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Windy_WindyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		99D2AD8256283DC0313B868D /* Pods-WindyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindyTests.debug.xcconfig"; path = "Target Support Files/Pods-WindyTests/Pods-WindyTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B0C4907A39591BBF49401C4E /* Pods_WindyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WindyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4F9B142A547945591387290 /* Pods-Windy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windy.debug.xcconfig"; path = "Target Support Files/Pods-Windy/Pods-Windy.debug.xcconfig"; sourceTree = "<group>"; };
+		17360FC00AA3B11E69CFDD68 /* Pods-WindyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindyTests.release.xcconfig"; path = "Target Support Files/Pods-WindyTests/Pods-WindyTests.release.xcconfig"; sourceTree = "<group>"; };
+		21E4AF6E789576AB6D38FB51 /* Pods_WindyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WindyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE8B81F389FE09452314A6B /* Pods-Windy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windy.debug.xcconfig"; path = "Target Support Files/Pods-Windy/Pods-Windy.debug.xcconfig"; sourceTree = "<group>"; };
+		517454A89F7E342EA40026B3 /* Pods_Windy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Windy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9E63816E8749D9A57B6E88 /* Pods-Windy-WindyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windy-WindyUITests.release.xcconfig"; path = "Target Support Files/Pods-Windy-WindyUITests/Pods-Windy-WindyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C69C8C7C5D8625BE6BBB380F /* Pods-Windy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windy.release.xcconfig"; path = "Target Support Files/Pods-Windy/Pods-Windy.release.xcconfig"; sourceTree = "<group>"; };
+		D86D143205CD715A9A60C9AA /* Pods_Windy_WindyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Windy_WindyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4EBD05BD5B4D30D1C9BB3E /* Pods-WindyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindyTests.debug.xcconfig"; path = "Target Support Files/Pods-WindyTests/Pods-WindyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF6D0C53E92C9643B2862F23 /* Pods-Windy-WindyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Windy-WindyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Windy-WindyUITests/Pods-Windy-WindyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5D9BD84BC2C116376751C43 /* Pods_Windy.framework in Frameworks */,
+				7B02DAFBA2DFC24992E7DF0B /* Pods_Windy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC18777B4B683E135765A31E /* Pods_WindyTests.framework in Frameworks */,
+				2A5478C69DB3927DF2F58B3B /* Pods_WindyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B40CD0810A22CDC2663335BB /* Pods_Windy_WindyUITests.framework in Frameworks */,
+				D93BCC0FBAF2C5D2436873CF /* Pods_Windy_WindyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 				135127B425B2D26800E4DD0E /* WindyUITests */,
 				1351279125B2D26700E4DD0E /* Products */,
 				43AB1A112A6ACEEEDA25B3FC /* Pods */,
-				6C629E1437205A41D0727DA5 /* Frameworks */,
+				6641330FD66E48239644BD4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,12 +117,12 @@
 			isa = PBXGroup;
 			children = (
 				1351279325B2D26700E4DD0E /* AppDelegate.swift */,
-				1351279525B2D26700E4DD0E /* SceneDelegate.swift */,
 				1351279725B2D26700E4DD0E /* ViewController.swift */,
 				1351279925B2D26700E4DD0E /* Main.storyboard */,
 				1351279C25B2D26700E4DD0E /* Assets.xcassets */,
 				1351279E25B2D26700E4DD0E /* LaunchScreen.storyboard */,
 				135127A125B2D26800E4DD0E /* Info.plist */,
+				1322515625B5C46200F6F59D /* AddCityViewController.swift */,
 			);
 			path = Windy;
 			sourceTree = "<group>";
@@ -148,23 +148,22 @@
 		43AB1A112A6ACEEEDA25B3FC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C4F9B142A547945591387290 /* Pods-Windy.debug.xcconfig */,
-				46A2155E9965E240626BDB7B /* Pods-Windy.release.xcconfig */,
-				1CCB387BBC507977C37AB344 /* Pods-Windy-WindyUITests.debug.xcconfig */,
-				1AE377240AF5639A61A9A086 /* Pods-Windy-WindyUITests.release.xcconfig */,
-				99D2AD8256283DC0313B868D /* Pods-WindyTests.debug.xcconfig */,
-				0EA3B6E9EF92340C11234A7E /* Pods-WindyTests.release.xcconfig */,
+				4CE8B81F389FE09452314A6B /* Pods-Windy.debug.xcconfig */,
+				C69C8C7C5D8625BE6BBB380F /* Pods-Windy.release.xcconfig */,
+				EF6D0C53E92C9643B2862F23 /* Pods-Windy-WindyUITests.debug.xcconfig */,
+				5E9E63816E8749D9A57B6E88 /* Pods-Windy-WindyUITests.release.xcconfig */,
+				DD4EBD05BD5B4D30D1C9BB3E /* Pods-WindyTests.debug.xcconfig */,
+				17360FC00AA3B11E69CFDD68 /* Pods-WindyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		6C629E1437205A41D0727DA5 /* Frameworks */ = {
+		6641330FD66E48239644BD4B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5FCC62EFC0831B90BD02FDEE /* Pods_Windy.framework */,
-				723E7CE6FCCC513E61179661 /* Pods_Windy_WindyUITests.framework */,
-				B0C4907A39591BBF49401C4E /* Pods_WindyTests.framework */,
+				517454A89F7E342EA40026B3 /* Pods_Windy.framework */,
+				D86D143205CD715A9A60C9AA /* Pods_Windy_WindyUITests.framework */,
+				21E4AF6E789576AB6D38FB51 /* Pods_WindyTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -176,10 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 135127BA25B2D26800E4DD0E /* Build configuration list for PBXNativeTarget "Windy" */;
 			buildPhases = (
-				5E5EFD633A42EC6C426F68F9 /* [CP] Check Pods Manifest.lock */,
+				EC9C5BF1D88DC49B38CE64D5 /* [CP] Check Pods Manifest.lock */,
 				1351278C25B2D26700E4DD0E /* Sources */,
 				1351278D25B2D26700E4DD0E /* Frameworks */,
 				1351278E25B2D26700E4DD0E /* Resources */,
+				7058CECC6DE51D1DD8D12CF1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -194,7 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 135127BD25B2D26800E4DD0E /* Build configuration list for PBXNativeTarget "WindyTests" */;
 			buildPhases = (
-				41DFDDA180C8ED0C229D8949 /* [CP] Check Pods Manifest.lock */,
+				AC33C845EDF8511D13B1449F /* [CP] Check Pods Manifest.lock */,
 				135127A225B2D26800E4DD0E /* Sources */,
 				135127A325B2D26800E4DD0E /* Frameworks */,
 				135127A425B2D26800E4DD0E /* Resources */,
@@ -213,10 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 135127C025B2D26800E4DD0E /* Build configuration list for PBXNativeTarget "WindyUITests" */;
 			buildPhases = (
-				EFFA8DE0D23D9C64F3921771 /* [CP] Check Pods Manifest.lock */,
+				5A844B406BA634B40744E8FE /* [CP] Check Pods Manifest.lock */,
 				135127AD25B2D26800E4DD0E /* Sources */,
 				135127AE25B2D26800E4DD0E /* Frameworks */,
 				135127AF25B2D26800E4DD0E /* Resources */,
+				EE17F8DCD35F22F6EE531072 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,51 +299,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		41DFDDA180C8ED0C229D8949 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WindyTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5E5EFD633A42EC6C426F68F9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Windy-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EFFA8DE0D23D9C64F3921771 /* [CP] Check Pods Manifest.lock */ = {
+		5A844B406BA634B40744E8FE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,6 +321,84 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7058CECC6DE51D1DD8D12CF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Windy/Pods-Windy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Windy/Pods-Windy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Windy/Pods-Windy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC33C845EDF8511D13B1449F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WindyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC9C5BF1D88DC49B38CE64D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Windy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE17F8DCD35F22F6EE531072 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Windy-WindyUITests/Pods-Windy-WindyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Windy-WindyUITests/Pods-Windy-WindyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Windy-WindyUITests/Pods-Windy-WindyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -372,8 +407,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1351279825B2D26700E4DD0E /* ViewController.swift in Sources */,
+				1322515725B5C46200F6F59D /* AddCityViewController.swift in Sources */,
 				1351279425B2D26700E4DD0E /* AppDelegate.swift in Sources */,
-				1351279625B2D26700E4DD0E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,12 +581,13 @@
 		};
 		135127BB25B2D26800E4DD0E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C4F9B142A547945591387290 /* Pods-Windy.debug.xcconfig */;
+			baseConfigurationReference = 4CE8B81F389FE09452314A6B /* Pods-Windy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Windy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -565,12 +601,13 @@
 		};
 		135127BC25B2D26800E4DD0E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46A2155E9965E240626BDB7B /* Pods-Windy.release.xcconfig */;
+			baseConfigurationReference = C69C8C7C5D8625BE6BBB380F /* Pods-Windy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Windy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -584,7 +621,7 @@
 		};
 		135127BE25B2D26800E4DD0E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99D2AD8256283DC0313B868D /* Pods-WindyTests.debug.xcconfig */;
+			baseConfigurationReference = DD4EBD05BD5B4D30D1C9BB3E /* Pods-WindyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -606,7 +643,7 @@
 		};
 		135127BF25B2D26800E4DD0E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EA3B6E9EF92340C11234A7E /* Pods-WindyTests.release.xcconfig */;
+			baseConfigurationReference = 17360FC00AA3B11E69CFDD68 /* Pods-WindyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -628,7 +665,7 @@
 		};
 		135127C125B2D26800E4DD0E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CCB387BBC507977C37AB344 /* Pods-Windy-WindyUITests.debug.xcconfig */;
+			baseConfigurationReference = EF6D0C53E92C9643B2862F23 /* Pods-Windy-WindyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -648,7 +685,7 @@
 		};
 		135127C225B2D26800E4DD0E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AE377240AF5639A61A9A086 /* Pods-Windy-WindyUITests.release.xcconfig */;
+			baseConfigurationReference = 5E9E63816E8749D9A57B6E88 /* Pods-Windy-WindyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

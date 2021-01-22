@@ -1,3 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/aitbelarbi/WindyDataSDK.git'
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
@@ -6,7 +8,8 @@ target 'Windy' do
   use_frameworks!
 
   # Pods for Windy
-
+  pod 'WindyDataSDK', :git => 'https://github.com/aitbelarbi/WindyDataSDK.git'
+  
   target 'WindyTests' do
     inherit! :search_paths
     # Pods for testing
